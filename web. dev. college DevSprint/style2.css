@@ -1,0 +1,296 @@
+.header {
+  padding: 4px 4px;
+  background:linear-gradient(rgb(9, 59, 115),rgb(52, 153, 203));
+  color: #f1f1f1;
+  width: auto;
+  height: 20px;
+  border: 1px solid rgb(9, 9, 9);
+  border-radius: 11px;
+  font-family: "Times New Roman";
+  font-size: medium;
+}
+   .content {
+    padding: 16px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .flexbox{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+  }
+  .felx-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #about{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;}
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819389_960_720.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      #bb{
+        background-color: rgb(232, 16, 185);
+        border-radius: 25px;
+    height: 50px;
+    width: 100px;
+    border: 0mm;
+    }
+    .m_p1{
+        padding: 8px 8px;
+        background-image: url(https://www.thefridaytimes.com/wp-content/uploads/2022/09/brahmastra-copy_tguk.h960.webp);
+        color: #f1f1f1;
+        width: auto;
+        height: 200px;
+        border: 1px solid rgb(9, 9, 9);
+        border-radius: 11px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+      }
+  .flex-box2a{
+    width: 300px;
+    height: 300px;
+    background-image:url(https://m.media-amazon.com/images/M/MV5BZjY2MmI1ZWItNmU0Yy00NTdkLWJiYmQtNzFlZWNlMzkxZTZjXkEyXkFqcGdeQXVyNjkwOTg4MTA@._V1_.jpg);
+    color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center
+    }
+  .flex-box2b{
+      width: 300px;
+      height: 300px;
+      background-image:url(https://upload.wikimedia.org/wikipedia/en/d/d4/The_Kashmir_Files_poster.jpg);
+      color: rgba(255, 255, 255, 0);
+      font-size: 25px;
+      text-align: center;
+      line-height: 200px;
+      border-radius: 20px;
+      margin: 10px;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      background-position: center
+      }
+.flex-box2c{
+        width: 300px;
+        height: 300px;
+        background-image:url(https://im.rediff.com/movies/2022/feb/25alia1.jpg?w=670&h=900);
+        color: rgba(255, 255, 255, 0);
+        font-size: 25px;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 20px;
+        margin: 10px;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: center
+        }
+.flex-box2d{
+          width: 300px;
+          height: 300px;
+          background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Jhund_Film_Poster.jpg/220px-Jhund_Film_Poster.jpg));
+          color: rgba(255, 255, 255, 0);
+          font-size: 25px;
+          text-align: center;
+          line-height: 200px;
+          border-radius: 20px;
+          margin: 10px;
+          background-repeat: no-repeat;
+          object-fit: cover;
+          background-position: center
+          }
+.flex-box2e{
+            width: 300px;
+            height: 300px;
+            background-image:url(data:image/jpeg;base64,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);
+            color: rgba(255, 255, 255, 0);
+            font-size: 25px;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 20px;
+            margin: 10px;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-position: center
+            }
+.flex-box2f{
+              width: 300px;
+              height: 300px;
+              background-image:url(https://i.ytimg.com/vi/3sMdYdZ9xYI/movieposter_en.jpg);
+              color: rgba(255, 255, 255, 0);
+              font-size: 25px;
+              text-align: center;
+              line-height: 200px;
+              border-radius: 20px;
+              margin: 10px;
+              background-repeat: no-repeat;
+              object-fit: cover;
+              background-position: center
+              }
+              .flex-box2g{
+                width: 300px;
+                height: 300px;
+                background-image:url(https://lumiere-a.akamaihd.net/v1/images/p_thorloveandthunder_639_593cb642.jpeg);
+                color: rgba(255, 255, 255, 0);
+                font-size: 25px;
+                text-align: center;
+                line-height: 200px;
+                border-radius: 20px;
+                margin: 10px;
+                background-repeat: no-repeat;
+                object-fit: cover;
+                background-position: center
+                }
+                .flex-box2h{
+                  width: 300px;
+                  height: 300px;
+                  background-image:url(https://lumiere-a.akamaihd.net/v1/images/p_prey_246_caa2c8c5.jpeg);
+                  color: rgba(255, 255, 255, 0);
+                  font-size: 25px;
+                  text-align: center;
+                  line-height: 200px;
+                  border-radius: 20px;
+                  margin: 10px;
+                  background-repeat: no-repeat;
+                  object-fit: cover;
+                  background-position: center
+                  }
+                  .flex-box2i{
+                    width: 300px;
+                    height: 300px;
+                    background-image:url(https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg);
+                    color: rgba(255, 255, 255, 0);
+                    font-size: 25px;
+                    text-align: center;
+                    line-height: 200px;
+                    border-radius: 20px;
+                    margin: 10px;
+                    background-repeat: no-repeat;
+                    object-fit: cover;
+                    background-position: center
+                    }
+                    .flex-box2j{
+                      width: 300px;
+                      height: 300px;
+                      background-image:url(https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/morbius_onesheet_1400x2100_he.jpg?itok=-jQVkWIe);
+                      color: rgba(255, 255, 255, 0);
+                      font-size: 25px;
+                      text-align: center;
+                      line-height: 200px;
+                      border-radius: 20px;
+                      margin: 10px;
+                      background-repeat: no-repeat;
+                      object-fit: cover;
+                      background-position: center
+                      }
+                      .header {
+                        padding: 8px 8px;
+                        background: #555;
+                        color: #f1f1f1;
+                        width: auto;
+                        height: 200px;
+                        border: 1px solid rgb(9, 9, 9);
+                        border-radius: 11px;
+                      }
+                       .content {
+                        padding: 16px;
+                      }
+                      .sticky {
+                        position: fixed;
+                        top: 0;
+                        width: 100%
+                      }
+                      .sticky + .content {
+                        padding-top: 102px;
+                      }
+                    
+                      .flexbox{
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: ;
+                      }
+                      .flex-container3.01{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: row-reverse;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        
+                    
+                      }
+                      .flex-box3.01{
+                        width: 300px;
+                        height: 300px;
+                       background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Dangal_Poster.jpg/220px-Dangal_Poster.jpg);
+                        color: white;
+                        font-size: 25px;
+                        text-align: center;
+                        line-height: 200px;
+                        border-radius: 20px;
+                        margin: 10px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        background-attachment: fixed;
+                    
+                      }
+                      #about{
+                        color: rgb(0, 0, 0);
+                        font-size: 25px;
+                        text-align: center;}
+                        body{
+                            background-image:url(https://cdn.pixabay.com/photo/2015/06/24/02/12/the-blurred-819389_960_720.jpg);
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        .m_tr1{
+                            padding: 8px 8px;
+                            background-image: url(https://s3.theasianparent.com/cdn-cgi/image/width=1200,fit=crop/tap-assets-prod/wp-content/uploads/sites/9/2016/12/Dangal.jpg);
+                            color: #f1f1f1;
+                            width: auto;
+                            height: 200px;
+                            border: 1px solid rgb(9, 9, 9);
+                            border-radius: 11px;
+                          }
+                          #bb{
+                            background-color: rgb(114, 18, 18);
+                            border-radius: 25px;
+                        height: 50px;
+                        width: 100px;
+                        border: 0mm;}
+                        .m_tr2{
+                            padding: 8px 8px;
+                             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDoqhD4Kzog5UsOphtba2Ko68z64NuwprEw&usqp=CAU);
+                            color: #f1f1f1;
+                            width: auto;
+                            height: 200px;
+                            border: 1px solid rgb(9, 9, 9);
+                            border-radius: 11px;
+                            
+                          }
+    
