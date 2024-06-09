@@ -21,7 +21,7 @@ Moviesphere is a movie searching website that allows users to easily search for 
 
 To run Moviesphere locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/moviesphere.git`
+1. Clone the repository: `https://github.com/pradhandip/Moviesphere.git`
 2. Install dependencies: `npm install`
 3. Set up environment variables (e.g., API keys, database connection string).
 4. Start the server: `npm start`
